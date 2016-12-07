@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: banrisul-helloTodo
+  host: banrisul-helloTodo
+  disk_quota: 1024M
+  services:
+  - banrisul-helloTodo-AdvancedMobileAccess
+  - banrisul-helloTodo-imfpush
+  - banrisul-helloTodo-cloudantNoSQLDB
